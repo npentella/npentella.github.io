@@ -10,7 +10,21 @@
 	</nav>
 </header>
 <h1>Contact</h1>
-<p>Call or Email</p>
+<p>Please leave any comments, complaints, or compliments.  We'd love to hear from you!</p>
+<form action="https://httpbin.org/post" method="post">
+	<div>
+		<label>Name:</label>
+		<input type="text" name="name" maxlength="50" required>
+	</div>
+	<div>
+		<label>Email:</label>
+		<input type="email" name="email" maxlength="100" required>
+	</div>
+	<div>
+		<label>Message:</label><br>
+		<textarea name="message" rows="20" cols="150">Write message here..</textarea>
+	</div>
+</form>
 <footer>
 <p>Don't miss any updates! <a href="registration.html">Join our fan community!</a></p>
 </footer>
