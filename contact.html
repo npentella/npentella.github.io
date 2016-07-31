@@ -6,28 +6,35 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-<header>
-	<nav>
-			<p><a href="index.html">Home</a> | <a href="registration.html">Get Updates</a> | <a href="history.html">UK History</a> | <a href="contact.html">Contact Us</a></p>
+<header id="top">
+	<img class="top-logo" id="top-left-logo" src="images/blue-kentucky-hi.png" alt="logo">
+	<nav id="normal-nav">	
+		<p><a href="index.html">Home</a></p><p><a href="registration.html">Get Updates</a></p><p><a href="history.html">UK History</a></p><p><a href="contact.html">Contact Us</a></p>
+	</nav>
+	<img class="top-logo" id="top-right-logo" src="images/blue-kentucky-hi.png" alt="logo">
+	<nav id="small-nav">	
+		<p><a href="index.html">Home</a> | <a href="registration.html">Sign Up</a> | <a href="history.html">History</a> | <a href="contact.html">Contact</a></p>
 	</nav>
 </header>
-<h1>Contact</h1>
-<p>Please leave any comments, complaints, or compliments.  We'd love to hear from you!</p>
-<form action="https://httpbin.org/post" method="post">
-	<div>
-		<label>Name:</label>
-		<input type="text" name="name" maxlength="50" required>
-	</div>
-	<div>
-		<label>Email:</label>
-		<input type="email" name="email" maxlength="100" required>
-	</div>
-	<div>
-		<label>Message:</label><br>
-		<textarea name="message" rows="20" cols="150" placeholder="Write message here..."></textarea>
-	</div>
-	<button type="submit">Send</button>
-</form>
+<main>
+	<h1>Contact</h1>
+	<p>Please leave any comments, complaints, or compliments.  We'd love to hear 	from you!</p>
+	<form action="https://httpbin.org/post" method="post">
+		<div>
+			<label>Name:</label>
+			<input type="text" name="name" maxlength="50" required>
+		</div>
+		<div>
+			<label>Email:</label>
+			<input type="email" name="email" maxlength="100" required>
+		</div>
+		<div>
+			<label>Message:</label><br>
+			<textarea name="message" rows="20" cols="150" placeholder="Write message here..."></textarea>
+		</div>
+		<button type="submit">Send</button>
+	</form>
+</main>
 <footer>
 <p>Don't miss any updates! <a href="registration.html">Join our fan community!</a></p>
 </footer>
