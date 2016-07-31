@@ -97,3 +97,14 @@ a:visited {
 	top: 2px;
 	right: 15px;
 }
+
+@media (max-width: 525px) {
+	.top-logo {
+		display: none;
+	}
+	}
+}
+
+@media (max-width: 355) {
+	
+}
