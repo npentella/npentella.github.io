@@ -109,6 +109,14 @@ a:visited {
 	display: none;
 }
 
+blockquote {
+	font-family: cursive;
+}
+
+.citation {
+	float: right;
+}
+
 @media (max-width: 355px) {
 	#normal-nav {
 		display: none;
